@@ -24,7 +24,7 @@ int main() {
 	b = L - 1;
 	n = x;
 
-	int i = 1;
+	int i = 0;
 	while (true) {
 		if (n == 1) {
 			std::cout << "The only survivor is Player " << ((a + b <= x) ? (a + b) : (a + b - x)) << std::endl;
