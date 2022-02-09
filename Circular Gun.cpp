@@ -14,7 +14,7 @@ int main() {
 	while (true) {
 		std::cout << "Starting Player : ";
 		std::cin >> L;
-		if (L >= 1 && L <= 100) break;
+		if (L >= 1 && L <= x) break;
 		else
 			std::cout << "Invalid Input. Starting Player must be a number between 1 and " << x << std::endl;
 	}
